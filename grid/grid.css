@@ -1,0 +1,194 @@
+
+.boxes{
+    border: 1px solid;
+    width: 400px;
+    height: 260px;
+    padding: 2%;
+    column-gap: 10px;
+    display: grid;
+    grid-template-columns:120px 120px 120px;
+    grid-template-rows: repeat(3 120px);
+}
+.dice{
+    width: 120px;
+    height: 120px;
+    border: 1px solid blue ;
+    border-radius: 15px;
+    display: grid;
+    margin: 2%;
+    
+}
+.dot{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    
+}
+.dot1{width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    margin: 10%;
+    place-self: center;
+}
+.dot2{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    grid-column: 3/span2;
+    grid-row: 3/2; 
+    place-self: center;
+}
+.dot3{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    grid-area: 3/3 ;
+    place-self: center;
+}
+.dot4{width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    grid-area: 1/3 ;
+    place-self: center;
+
+}
+.dot5{ width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    grid-area: 3/1 ;
+    place-self: center;
+
+}
+.dot6{ width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    grid-area: 2/1 ;
+    place-self: center;
+
+}
+.dot7{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    grid-area: 2/3 ;
+    place-self: center;
+}
+
+.qutular{
+    width: 1430px; 
+    height: 615px;
+    border: 1px solid;
+    margin-top: 20px;
+    padding: 10px;
+    gap: 5px;
+    display: grid;
+    /* grid-auto-rows:minmax (200px, auto); */
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+   
+}
+.qutu{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    display: grid;
+}
+
+.qutu1 {
+    display: grid;
+    width: 600px; 
+    height: 600px;
+    grid-row: 1/span 3;
+    grid-column: 1/span 3;
+}
+.qutu1 img{
+    width: 600px;
+    height: 600px;
+}
+.qutu2 img,.qutu6 img,.qutu7 img,.qutu8 img{
+    width: 200px;
+    height: 200px;
+}
+.qutu2{width: 200px;
+    height: 200px;
+    display: grid;
+    grid-row: 2/span 0;
+    grid-column: 2/span 0;
+    margin-left: -3px;
+} 
+.qutu3{width: 200px;
+    height: 400px;
+    display: grid;
+    grid-row: 3/span 1;
+    grid-column: 3/span 1;
+    margin-top: -203px;
+    margin-left: 202px;
+}
+.qutu4{
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-row: 4/span 1;
+    grid-column: 4/span 2;
+    margin-left: 205px;
+    margin-top: -618px;
+}
+.qutu5{
+    width: 400px;
+    height: 200px;
+    display: grid;
+    grid-column:5/span1;
+    grid-row: 5/span1;
+    margin-top: -210px;
+}
+.qutu6{
+    width: 200px;
+    height: 200px;
+    display: grid;
+    grid-row: 6/span0;
+    grid-column: 6/span0;
+    margin-left: 200px;
+    margin-top: -620px;
+}
+.qutu7{
+    width: 200px;
+    height: 200px;
+    display: grid;
+    grid-row: 7/span0;
+    grid-column: 7/span0;
+    margin-top: -415px;
+    margin-left: -5px;
+}
+.qutu8{
+    width: 200px;
+    height: 200px;
+    display: grid;
+    grid-row: 8/span0;
+    grid-column: 8/span0;
+    margin-left: -210px;
+    margin-top: -210px;
+}
+.qutu3 img{
+    width: 200px;
+    height: 400px;
+}
+
+.qutu4 img{
+    width:400px;
+    height: 400px;
+}
+.qutu5 img{
+    width: 400px;
+    height: 200px;
+}
